@@ -96,7 +96,7 @@ fi
 
 echo "✅ Fee within limit — proceeding with swap."
 
-# 5. Execute loop-in with --force
+# 5. Execute loop-in
 echo ""
 echo "Starting loop-in now..."
 LOOP_OUTPUT=$(yes | "${LOOP_ARGS[@]}" static in \
